@@ -1,10 +1,10 @@
 {
   "name": "dev-optional-git-dep-index-fallback",
   "version": "1.0.0",
-  "description": "pnpm 11.28.1 probe: index.fallback lockfile field, --dev installs optional deps of devDeps, git-hosted dependency handling",
+  "description": "pnpm 11.28.1 probe: --dev installs optional dependencies of devDependencies, git-hosted dependency handling. (index.fallback is a content-addressable-store fallback for index.db when node:sqlite cannot prepare statements - a store artifact, not a lockfile field, so it is not observable in this probe.)",
   "dependencies": {
     "debug": "github:debug-js/debug#3.2.7",
-    "zod": "^3.22.4"
+    "zod": "3.25.76"
   },
   "devDependencies": {
     "vitest": "^1.6.0"

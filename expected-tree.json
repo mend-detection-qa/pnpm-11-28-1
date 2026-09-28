@@ -670,9 +670,9 @@
     "74 packages. This is the closure REACHED VIA dependencies EDGES ONLY. The lockfile resolves 124; the other 50 are reachable only through optionalDependencies edges in snapshots and Mend does not report them.",
     "KNOWN GAP (asserted as-is, tracked separately): UA's pnpm v9 snapshot parser ignores snapshot-level optionalDependencies: blocks. Dropped: fsevents@2.3.3 plus 49 @esbuild/* and @rollup/rollup-* platform packages. This is NOT platform filtering - @esbuild/linux-x64 and @rollup/rollup-linux-x64-gnu are absent on a Linux runner too. Importer-level optionalDependencies ARE read, which is why an earlier run did report fsevents.",
     "debug is git-hosted. pnpm 11.28.1 keys it as debug@https://codeload.github.com/.../tar.gz/<sha>; UA resolves that to debug-3.2.7.tgz @ 3.2.7 correctly, but the update request carries no source or commit field, so git provenance is lost.",
-    "zod floats: ^3.22.4 resolved to 3.25.76. Pin it if this tree should stay stable across regenerations.",
+    "zod is pinned to the exact version 3.25.76 (was ^3.22.4). Pinned to the version the validated scan resolved, not to 3.22.4, so the expected tree and autotest_config.json (zod-3.25.76.tgz) stay green without re-resolving the lockfile.",
     "devDependencies are included in this tree; the scan org must have includeDevDependencies enabled (decide.ShouldIncludeDevDependencies -> npm.includeDevDependencies).",
-    "There is no index.fallback lockfile field. index.fallback is a content-addressable-store fallback for index.db when node:sqlite cannot prepare statements (pnpm 11.28.1 release note #15649).",
+    "There is no index.fallback lockfile field. index.fallback is a content-addressable-store fallback for index.db when node:sqlite cannot prepare statements (pnpm 11.28.1 release note #15649). This probe cannot observe it; the package.json description was corrected accordingly.",
     "The update request has no dev/prod field - only `optional`. group is not verifiable at that layer."
   ]
 }

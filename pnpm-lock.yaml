@@ -12,7 +12,7 @@ importers:
         specifier: github:debug-js/debug#3.2.7
         version: https://codeload.github.com/debug-js/debug/tar.gz/338326076faaf6d230090903de97f459c4bccabc
       zod:
-        specifier: ^3.22.4
+        specifier: 3.25.76
         version: 3.25.76
     devDependencies:
       vitest:

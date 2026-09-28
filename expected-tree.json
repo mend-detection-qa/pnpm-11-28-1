@@ -1,9 +1,172 @@
 {
-  "generated_at": "2026-09-28T09:38:04Z",
+  "generated_at": "2026-09-28T10:05:24Z",
   "packages": {
-    "debug": {
+    "@jest/schemas@29.6.3": {
       "dependencies": [
-        "ms"
+        "@sinclair/typebox@0.27.12"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "29.6.3"
+    },
+    "@jridgewell/sourcemap-codec@1.6.0": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "1.6.0"
+    },
+    "@sinclair/typebox@0.27.12": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "0.27.12"
+    },
+    "@types/estree@1.0.9": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "1.0.9"
+    },
+    "@vitest/expect@1.6.1": {
+      "dependencies": [
+        "@vitest/spy@1.6.1",
+        "@vitest/utils@1.6.1",
+        "chai@4.5.0"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "1.6.1"
+    },
+    "@vitest/runner@1.6.1": {
+      "dependencies": [
+        "@vitest/utils@1.6.1",
+        "p-limit@5.0.0",
+        "pathe@1.1.2"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "1.6.1"
+    },
+    "@vitest/snapshot@1.6.1": {
+      "dependencies": [
+        "magic-string@0.30.21",
+        "pathe@1.1.2",
+        "pretty-format@29.7.0"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "1.6.1"
+    },
+    "@vitest/spy@1.6.1": {
+      "dependencies": [
+        "tinyspy@2.2.1"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "1.6.1"
+    },
+    "@vitest/utils@1.6.1": {
+      "dependencies": [
+        "diff-sequences@29.6.3",
+        "estree-walker@3.0.3",
+        "loupe@2.3.7",
+        "pretty-format@29.7.0"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "1.6.1"
+    },
+    "acorn-walk@8.3.5": {
+      "dependencies": [
+        "acorn@8.18.0"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "8.3.5"
+    },
+    "acorn@8.18.0": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "8.18.0"
+    },
+    "ansi-styles@5.2.0": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "5.2.0"
+    },
+    "assertion-error@1.1.0": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "1.1.0"
+    },
+    "cac@6.7.14": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "6.7.14"
+    },
+    "chai@4.5.0": {
+      "dependencies": [
+        "assertion-error@1.1.0",
+        "check-error@1.0.3",
+        "deep-eql@4.1.4",
+        "get-func-name@2.0.2",
+        "loupe@2.3.7",
+        "pathval@1.1.1",
+        "type-detect@4.1.0"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "4.5.0"
+    },
+    "check-error@1.0.3": {
+      "dependencies": [
+        "get-func-name@2.0.2"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "1.0.3"
+    },
+    "confbox@0.1.8": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "0.1.8"
+    },
+    "cross-spawn@7.0.6": {
+      "dependencies": [
+        "path-key@3.1.1",
+        "shebang-command@2.0.0",
+        "which@2.0.2"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "7.0.6"
+    },
+    "debug@3.2.7": {
+      "dependencies": [
+        "ms@2.1.3"
       ],
       "group": "main",
       "optional": false,
@@ -15,14 +178,473 @@
       },
       "version": "3.2.7"
     },
-    "ms": {
+    "debug@4.4.3": {
+      "dependencies": [
+        "ms@2.1.3"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "4.4.3"
+    },
+    "deep-eql@4.1.4": {
+      "dependencies": [
+        "type-detect@4.1.0"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "4.1.4"
+    },
+    "diff-sequences@29.6.3": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "29.6.3"
+    },
+    "esbuild@0.21.5": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "0.21.5"
+    },
+    "estree-walker@3.0.3": {
+      "dependencies": [
+        "@types/estree@1.0.9"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "3.0.3"
+    },
+    "execa@8.0.1": {
+      "dependencies": [
+        "cross-spawn@7.0.6",
+        "get-stream@8.0.1",
+        "human-signals@5.0.0",
+        "is-stream@3.0.0",
+        "merge-stream@2.0.0",
+        "npm-run-path@5.3.0",
+        "onetime@6.0.0",
+        "signal-exit@4.1.0",
+        "strip-final-newline@3.0.0"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "8.0.1"
+    },
+    "get-func-name@2.0.2": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "2.0.2"
+    },
+    "get-stream@8.0.1": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "8.0.1"
+    },
+    "human-signals@5.0.0": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "5.0.0"
+    },
+    "is-stream@3.0.0": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "3.0.0"
+    },
+    "isexe@2.0.0": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "2.0.0"
+    },
+    "js-tokens@9.0.1": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "9.0.1"
+    },
+    "local-pkg@0.5.1": {
+      "dependencies": [
+        "mlly@1.8.2",
+        "pkg-types@1.3.1"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "0.5.1"
+    },
+    "loupe@2.3.7": {
+      "dependencies": [
+        "get-func-name@2.0.2"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "2.3.7"
+    },
+    "magic-string@0.30.21": {
+      "dependencies": [
+        "@jridgewell/sourcemap-codec@1.6.0"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "0.30.21"
+    },
+    "merge-stream@2.0.0": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "2.0.0"
+    },
+    "mimic-fn@4.0.0": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "4.0.0"
+    },
+    "mlly@1.8.2": {
+      "dependencies": [
+        "acorn@8.18.0",
+        "pathe@2.0.3",
+        "pkg-types@1.3.1",
+        "ufo@1.6.4"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "1.8.2"
+    },
+    "ms@2.1.3": {
       "dependencies": [],
       "group": "main",
       "optional": false,
       "source": "registry",
       "version": "2.1.3"
     },
-    "zod": {
+    "nanoid@3.3.19": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "3.3.19"
+    },
+    "npm-run-path@5.3.0": {
+      "dependencies": [
+        "path-key@4.0.0"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "5.3.0"
+    },
+    "onetime@6.0.0": {
+      "dependencies": [
+        "mimic-fn@4.0.0"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "6.0.0"
+    },
+    "p-limit@5.0.0": {
+      "dependencies": [
+        "yocto-queue@1.2.2"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "5.0.0"
+    },
+    "path-key@3.1.1": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "3.1.1"
+    },
+    "path-key@4.0.0": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "4.0.0"
+    },
+    "pathe@1.1.2": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "1.1.2"
+    },
+    "pathe@2.0.3": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "2.0.3"
+    },
+    "pathval@1.1.1": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "1.1.1"
+    },
+    "picocolors@1.1.1": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "1.1.1"
+    },
+    "pkg-types@1.3.1": {
+      "dependencies": [
+        "confbox@0.1.8",
+        "mlly@1.8.2",
+        "pathe@2.0.3"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "1.3.1"
+    },
+    "postcss@8.5.28": {
+      "dependencies": [
+        "nanoid@3.3.19",
+        "picocolors@1.1.1",
+        "source-map-js@1.2.1"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "8.5.28"
+    },
+    "pretty-format@29.7.0": {
+      "dependencies": [
+        "@jest/schemas@29.6.3",
+        "ansi-styles@5.2.0",
+        "react-is@18.3.1"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "29.7.0"
+    },
+    "react-is@18.3.1": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "18.3.1"
+    },
+    "rollup@4.63.5": {
+      "dependencies": [
+        "@types/estree@1.0.9"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "4.63.5"
+    },
+    "shebang-command@2.0.0": {
+      "dependencies": [
+        "shebang-regex@3.0.0"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "2.0.0"
+    },
+    "shebang-regex@3.0.0": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "3.0.0"
+    },
+    "siginfo@2.0.0": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "2.0.0"
+    },
+    "signal-exit@4.1.0": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "4.1.0"
+    },
+    "source-map-js@1.2.1": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "1.2.1"
+    },
+    "stackback@0.0.2": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "0.0.2"
+    },
+    "std-env@3.10.0": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "3.10.0"
+    },
+    "strip-final-newline@3.0.0": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "3.0.0"
+    },
+    "strip-literal@2.1.1": {
+      "dependencies": [
+        "js-tokens@9.0.1"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "2.1.1"
+    },
+    "tinybench@2.9.0": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "2.9.0"
+    },
+    "tinypool@0.8.4": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "0.8.4"
+    },
+    "tinyspy@2.2.1": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "2.2.1"
+    },
+    "type-detect@4.1.0": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "4.1.0"
+    },
+    "ufo@1.6.4": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "1.6.4"
+    },
+    "vite-node@1.6.1": {
+      "dependencies": [
+        "cac@6.7.14",
+        "debug@4.4.3",
+        "pathe@1.1.2",
+        "picocolors@1.1.1",
+        "vite@5.4.21"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "1.6.1"
+    },
+    "vite@5.4.21": {
+      "dependencies": [
+        "esbuild@0.21.5",
+        "postcss@8.5.28",
+        "rollup@4.63.5"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "5.4.21"
+    },
+    "vitest@1.6.1": {
+      "dependencies": [
+        "@vitest/expect@1.6.1",
+        "@vitest/runner@1.6.1",
+        "@vitest/snapshot@1.6.1",
+        "@vitest/spy@1.6.1",
+        "@vitest/utils@1.6.1",
+        "acorn-walk@8.3.5",
+        "chai@4.5.0",
+        "debug@4.4.3",
+        "execa@8.0.1",
+        "local-pkg@0.5.1",
+        "magic-string@0.30.21",
+        "pathe@1.1.2",
+        "picocolors@1.1.1",
+        "std-env@3.10.0",
+        "strip-literal@2.1.1",
+        "tinybench@2.9.0",
+        "tinypool@0.8.4",
+        "vite-node@1.6.1",
+        "vite@5.4.21",
+        "why-is-node-running@2.3.0"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "1.6.1"
+    },
+    "which@2.0.2": {
+      "dependencies": [
+        "isexe@2.0.0"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "2.0.2"
+    },
+    "why-is-node-running@2.3.0": {
+      "dependencies": [
+        "siginfo@2.0.0",
+        "stackback@0.0.2"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "2.3.0"
+    },
+    "yocto-queue@1.2.2": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "1.2.2"
+    },
+    "zod@3.25.76": {
       "dependencies": [],
       "group": "main",
       "optional": false,
@@ -34,21 +656,23 @@
   "pm_version_tested": "11.28.1",
   "root": {
     "dependencies": [
-      "debug",
-      "zod"
+      "debug@3.2.7",
+      "vitest@1.6.1",
+      "zod@3.25.76"
     ],
     "name": "dev-optional-git-dep-index-fallback",
     "version": "1.0.0"
   },
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "source_file": "pnpm-lock.yaml",
   "warnings": [
-    "Lockfile regenerated by real pnpm 11.28.1; verified with `pnpm install --frozen-lockfile` (124 packages resolved, 77 linked on darwin-arm64).",
-    "devDependencies are EXCLUDED from this expected tree: UA's npm.includeDevDependencies defaults to false and .whitesource does not override it, so vitest and its 121-package subtree are not reported.",
-    "fsevents is NOT a root dependency. The manifest declares no optionalDependencies; fsevents is reachable only as an optionalDependency of rollup@4.63.5 and vite@5.4.21, both inside the dev subtree. It appears only if dev deps are enabled.",
-    "debug is git-hosted. pnpm 11.28.1 records it as a codeload tarball key (debug@https://codeload.github.com/.../tar.gz/<sha>) with resolution {gitHosted: true, integrity, tarball} and the semver in a separate `version:` field - NOT as {git:, commit:}. Mend must report source git with the commit SHA.",
-    "zod floats: the manifest pins ^3.22.4 and pnpm resolved 3.25.76. This expected tree will drift unless zod is pinned to an exact version.",
-    "There is no index.fallback field. index.fallback is a content-addressable-store artifact (fallback for ~/Library/pnpm/store/v11/index.db when node:sqlite cannot prepare statements, per pnpm 11.28.1 release note #15649); it never appears in pnpm-lock.yaml.",
-    "The update-request payload has no dev/prod field - only `optional`. group: dev is not verifiable at that layer."
+    "schema_version 1.1: packages are keyed by name@version, not by bare name. The dev tree contains three names at two versions each - debug (3.2.7 git / 4.4.3 registry), path-key (3.1.1 / 4.0.0), pathe (1.1.2 / 2.0.3) - which schema 1.0's name-keyed map cannot represent. All six are distinct nodes in the update request.",
+    "74 packages. This is the closure REACHED VIA dependencies EDGES ONLY. The lockfile resolves 124; the other 50 are reachable only through optionalDependencies edges in snapshots and Mend does not report them.",
+    "KNOWN GAP (asserted as-is, tracked separately): UA's pnpm v9 snapshot parser ignores snapshot-level optionalDependencies: blocks. Dropped: fsevents@2.3.3 plus 49 @esbuild/* and @rollup/rollup-* platform packages. This is NOT platform filtering - @esbuild/linux-x64 and @rollup/rollup-linux-x64-gnu are absent on a Linux runner too. Importer-level optionalDependencies ARE read, which is why an earlier run did report fsevents.",
+    "debug is git-hosted. pnpm 11.28.1 keys it as debug@https://codeload.github.com/.../tar.gz/<sha>; UA resolves that to debug-3.2.7.tgz @ 3.2.7 correctly, but the update request carries no source or commit field, so git provenance is lost.",
+    "zod floats: ^3.22.4 resolved to 3.25.76. Pin it if this tree should stay stable across regenerations.",
+    "devDependencies are included in this tree; the scan org must have includeDevDependencies enabled (decide.ShouldIncludeDevDependencies -> npm.includeDevDependencies).",
+    "There is no index.fallback lockfile field. index.fallback is a content-addressable-store fallback for index.db when node:sqlite cannot prepare statements (pnpm 11.28.1 release note #15649).",
+    "The update request has no dev/prod field - only `optional`. group is not verifiable at that layer."
   ]
 }

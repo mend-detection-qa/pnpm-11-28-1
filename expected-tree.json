@@ -1,0 +1,230 @@
+{
+  "generated_at": "2026-09-28T08:07:15Z",
+  "packages": {
+    "@jest/expect-utils": {
+      "dependencies": [
+        "jest-get-type"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "29.7.0"
+    },
+    "@types/node": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "20.14.2"
+    },
+    "@vitest/expect": {
+      "dependencies": [
+        "@vitest/utils",
+        "expect-type",
+        "jest-get-type",
+        "jest-matcher-utils"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "1.6.0"
+    },
+    "@vitest/snapshot": {
+      "dependencies": [
+        "magic-string",
+        "pretty-format"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "1.6.0"
+    },
+    "@vitest/spy": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "1.6.0"
+    },
+    "@vitest/utils": {
+      "dependencies": [
+        "diff-sequences",
+        "loupe",
+        "pretty-format"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "1.6.0"
+    },
+    "ansi-styles": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "5.2.0"
+    },
+    "debug": {
+      "dependencies": [
+        "ms"
+      ],
+      "group": "main",
+      "optional": false,
+      "source": "git",
+      "source_detail": {
+        "commit": "f88a9f9eb5af56b41be0b65fe4e4bbc6c9408a86",
+        "url": "https://github.com/debug-js/debug"
+      },
+      "version": "3.2.7"
+    },
+    "diff-sequences": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "29.6.3"
+    },
+    "expect-type": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "0.19.0"
+    },
+    "fsevents": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": true,
+      "source": "registry",
+      "version": "2.3.3"
+    },
+    "jest-diff": {
+      "dependencies": [
+        "ansi-styles",
+        "diff-sequences",
+        "jest-get-type",
+        "pretty-format"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "29.7.0"
+    },
+    "jest-get-type": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "29.6.3"
+    },
+    "jest-matcher-utils": {
+      "dependencies": [
+        "jest-diff",
+        "jest-get-type",
+        "pretty-format"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "29.7.0"
+    },
+    "loupe": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "2.3.7"
+    },
+    "magic-string": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "0.30.10"
+    },
+    "ms": {
+      "dependencies": [],
+      "group": "main",
+      "optional": false,
+      "source": "registry",
+      "version": "2.1.3"
+    },
+    "pretty-format": {
+      "dependencies": [
+        "@jest/expect-utils",
+        "ansi-styles",
+        "react-is"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "29.7.0"
+    },
+    "react-is": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "18.3.1"
+    },
+    "tinyrainbow": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "1.2.0"
+    },
+    "vite": {
+      "dependencies": [],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "5.3.3"
+    },
+    "vitest": {
+      "dependencies": [
+        "@types/node",
+        "@vitest/expect",
+        "@vitest/snapshot",
+        "@vitest/spy",
+        "@vitest/utils",
+        "expect-type",
+        "fsevents",
+        "loupe",
+        "magic-string",
+        "tinyrainbow",
+        "vite"
+      ],
+      "group": "dev",
+      "optional": false,
+      "source": "registry",
+      "version": "1.6.0"
+    },
+    "zod": {
+      "dependencies": [],
+      "group": "main",
+      "optional": false,
+      "source": "registry",
+      "version": "3.22.4"
+    }
+  },
+  "pm": "pnpm",
+  "pm_version_tested": "11.28.1",
+  "root": {
+    "dependencies": [
+      "debug",
+      "fsevents",
+      "vitest",
+      "zod"
+    ],
+    "name": "dev-optional-git-dep-index-fallback",
+    "version": "1.0.0"
+  },
+  "schema_version": "1.0",
+  "source_file": "pnpm-lock.yaml",
+  "warnings": [
+    "index.fallback field present in lockfile — new in pnpm 11.28.1; UA must tolerate unknown lockfile fields",
+    "fsevents is an optional dep of vitest (devDep); pnpm 11.28.1 --dev flag guarantees its inclusion; group is dev, optional is true",
+    "debug resolved via git (github:debug-js/debug#3.2.7); source type is git with commit SHA in source_detail"
+  ]
+}

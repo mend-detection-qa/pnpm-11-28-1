@@ -1,6 +1,6 @@
 {
   "description": "Autotest configuration file for dependency tree detection validation",
-  "version": 1.8,
+  "version": 1.9,
   "base_config": {
     "validate_scan_output": true,
     "_comment_validate_scan_output": "Whether to validate the scan output/exit code. Options: true | false. Default: true",
@@ -48,10 +48,13 @@
           "path-key-3.1.1.tgz",
           "path-key-4.0.0.tgz",
           "pathe-1.1.2.tgz",
-          "pathe-2.0.3.tgz"
+          "pathe-2.0.3.tgz",
+          "@esbuild/linux-x64-0.21.5.tgz",
+          "@rollup/rollup-linux-x64-gnu-4.63.5.tgz"
         ]
       },
       "_comment_dependencies_names_list": "Optional. Check specific libraries in direct dependencies. Operators: eq (==), contains (all items from expected list in actual), in(all items from actual list in expected), nin(actual list does not contain provided libs). If not provided, this check will not be performed.",
+      "_known_gap_SCA-7061": "The last two entries of transitive_dependencies_names_list are EXPECTED-TO-FAIL today. Mend reports 74 of the lockfile's 124 resolved packages; the other 50 are reachable only through snapshot-level optionalDependencies: edges (51 edges across esbuild@0.21.5, rollup@4.63.5 and vite@5.4.21 - fsevents@2.3.3 is optional under two parents, so 51 edges but 50 distinct packages). pnpm 11.28.1 changed --dev to install the platform-matching subset, so a customer running a dev install has roughly 2-3 of them on disk and unreported. The two asserted names are the Linux-runner pair and hold under either fix the UA team picks - full lockfile closure, or platform filtering. Totals are deliberately left at the current 74/3/71 so the failure points at the missing packages rather than at a disputed total. Tracked in SCA-7061 (https://mend-io.atlassian.net/browse/SCA-7061); the pytest case is xfail-marked against it in qa-detection-repo-integration. When UA fixes this, drop the xfail and raise the totals.",
       "expected_package_managers": {
         "contains": [
           "pnpm"

@@ -1,0 +1,17 @@
+{
+  "name": "dev-optional-git-dep-index-fallback",
+  "version": "1.0.0",
+  "description": "pnpm 11.28.1 probe: index.fallback lockfile field, --dev installs optional deps of devDeps, git-hosted dependency handling",
+  "dependencies": {
+    "debug": "github:debug-js/debug#3.2.7",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "vitest": "^1.6.0"
+  },
+  "devDependenciesMeta": {
+    "fsevents": {
+      "optional": true
+    }
+  }
+}

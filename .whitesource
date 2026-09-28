@@ -1,6 +1,6 @@
 {
   "scanSettings": {
-    "configMode": "AUTO",
+    "configMode": "LOCAL",
     "versioning": {
       "pnpm": "11.28.1"
     }
